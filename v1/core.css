@@ -1,0 +1,19 @@
+
+:root {
+  --accent: 170,120,255;
+  --bg-main: rgba(12,12,18,0.65);
+}
+
+body::before {
+  content:"";
+  position:fixed;
+  inset:0;
+  background:
+    linear-gradient(rgba(10,10,20,.55), rgba(10,10,20,.55)),
+    url("https://i.ibb.co/Zz5CkrGy/65c8171b1709bd436f2e271892f84ca2.jpg");
+  background-size:cover;
+  z-index:-1;
+}
+
+.appMount_fae9dd,
+.layers_a01fb1 { background: transparent !important; }
